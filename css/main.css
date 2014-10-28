@@ -61,18 +61,17 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+body {
+    background: #ffffff url('../img/palace_background.jpg') no-repeat bottom;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+}
 
 
 /* ==========================================================================
