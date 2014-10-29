@@ -61,6 +61,36 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/AvenirNextLTPro-Regular.otf');
+}
+
+@font-face {
+    font-family: 'FuturaBold';
+    src: url('../fonts/FuturaStd-Bold.otf');
+}
+
+@font-face {
+    font-family: 'FuturaBook';
+    src: url('../fonts/FuturaStd-Book.otf');
+}
+
+@font-face {
+    font-family: 'FuturaHeavy';
+    src: url('../fonts/FuturaStd-Heavy.otf');
+}
+
+@font-face {
+    font-family: 'FuturaHeavyOblique';
+    src: url('../fonts/FuturaStd-HeavyOblique.otf');
+}
+
+@font-face {
+    font-family: 'FuturaMedium';
+    src: url('../fonts/FuturaStd-Medium.otf');
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -68,9 +98,31 @@ html, body {
 }
 
 body {
-    background: #ffffff url('../img/palace_background.jpg') no-repeat bottom;
+    background: #ffffff url('../img/palace_background.jpg') no-repeat 50% 60%;
     background-attachment: fixed !important;
     background-size: cover !important;
+}
+
+.bandTitle {
+    margin: 0;
+    padding: 0;
+    font-family: 'Avenir', 'Georgia', serif; 
+    font-size: 550%;
+    letter-spacing: 15px;
+}
+
+.debut { 
+    margin: 5px 0 0 0;
+    padding: 0;
+    font-family: 'FuturaMedium', 'Georgia', serif; 
+    color: #777;
+    font-size: 140%;
+}
+
+.highlight { 
+    margin: 0;
+    padding: 0;
+    font-family: 'FuturaHeavy', serif; 
 }
 
 footer {
