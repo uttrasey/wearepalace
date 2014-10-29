@@ -61,6 +61,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/AvenirNextLTPro-Regular.otf');
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -71,6 +76,14 @@ body {
     background: #ffffff url('../img/palace_background.jpg') no-repeat bottom;
     background-attachment: fixed !important;
     background-size: cover !important;
+}
+
+.blah { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Avenir', 'Georgia', serif; 
+    font-size: 550%;
+    letter-spacing: 15px;
 }
 
 footer {
