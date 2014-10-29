@@ -73,6 +73,13 @@ body {
     background-size: cover !important;
 }
 
+footer {
+    color: #ffffff;
+    width: 100%;
+    bottom: 0;
+    padding-bottom: 30px;
+    position: fixed;
+}       
 
 /* ==========================================================================
    Media Queries
