@@ -77,9 +77,13 @@ footer {
     color: #ffffff;
     width: 100%;
     bottom: 0;
-    padding-bottom: 30px;
     position: fixed;
 }       
+
+img#beatnik {
+    float: right;
+    margin: 0 30px 40px 0;
+}
 
 /* ==========================================================================
    Media Queries
