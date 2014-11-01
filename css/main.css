@@ -98,15 +98,21 @@ html, body {
 }
 
 body {
-    background: #ffffff url('../img/palace_background.jpg') no-repeat 50% 25%;
+    background: #ffffff url('../img/palace_background.jpg') no-repeat 50% 10%;
     background-attachment: fixed !important;
     background-size: cover !important;
 }
 
 .bandTitle {
-    margin: 0;
-    padding: 0; 
     font-family: 'Avenir', 'Georgia', serif; 
+    font-size: 330%;
+    display: block;
+}
+
+img#lostNight {
+    width: 210px;
+    height: 45px;
+    display: block;
 }
 
 .debut { 
@@ -114,6 +120,7 @@ body {
     padding: 0; 
     font-family: 'FuturaMedium', 'Georgia', serif; 
     color: #777;
+    font-size: 90%;
 }
 
 .highlight {
@@ -141,12 +148,20 @@ img#beatnik {
 @media only screen and (min-width: 35em) {
     
     .bandTitle {
-        font-size: 550%;
-        letter-spacing: 15px;
+        font-size: 560%;
+        letter-spacing: 16px;
+        line-height: 0.9;
+        padding: 5px;
     }
         
     .debut {
         font-size: 140%;
+    }
+
+    img#lostNight {
+        width: 280px;
+        height: 59px;
+        margin-bottom: 10px;
     }
 
 }
