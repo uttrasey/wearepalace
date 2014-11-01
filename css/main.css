@@ -98,7 +98,7 @@ html, body {
 }
 
 body {
-    background: #ffffff url('../img/palace_background.jpg') no-repeat 50% 60%;
+    background: #ffffff url('../img/palace_background.jpg') no-repeat 50% 25%;
     background-attachment: fixed !important;
     background-size: cover !important;
 }
