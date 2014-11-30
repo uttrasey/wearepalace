@@ -103,6 +103,21 @@ body {
     background-size: cover !important;
 }
 
+#social-media-links {
+    position: absolute;
+    left: 0px;
+    width: 350px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.social-media-link {
+    margin: 4px;
+}
+
 .bandTitle {
     margin: 0;
     padding: 0;
