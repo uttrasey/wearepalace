@@ -147,15 +147,22 @@ a {
     text-decoration: none;
 }
 
+.b1 {
+    border: 1px solid #000;
+}
 .social-media-link {
     margin: 4px;
 }
 
 .bandTitle {
     font-family: 'Avenir', 'Georgia', serif; 
-    font-size: 330%;
+    font-size: 310%;
     display: block;
-    margin-top: 50px;
+    margin-top: 35px;
+}
+
+#fixedheight {
+    height: 80px;
 }
 
 img#lostNight {
