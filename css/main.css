@@ -98,7 +98,7 @@ html, body {
 }
 
 body {
-    background: #ffffff url('../img/palace_background.jpg') no-repeat 50% 25%;
+    background: #ffffff url('../img/palace_background.jpg') no-repeat 50% 10%;
     background-attachment: fixed !important;
     background-size: cover !important;
 }
@@ -106,8 +106,14 @@ body {
 #social-media-links {
     position: absolute;
     left: 0px;
+    top: 0;
     width: 350px;
     padding: 5px;
+}
+
+.social-media-link {
+    height: 22px;
+    width: 22px;
 }
 
 #tour-dates {
@@ -147,22 +153,26 @@ a {
 }
 
 .bandTitle {
-    margin: 0;
-    padding: 0;
     font-family: 'Avenir', 'Georgia', serif; 
-    font-size: 550%;
-    letter-spacing: 15px;
+    font-size: 330%;
+    display: block;
+}
+
+img#lostNight {
+    width: 210px;
+    height: 45px;
+    display: block;
 }
 
 .debut { 
     margin: 5px 0 0 0;
-    padding: 0;
+    padding: 0; 
     font-family: 'FuturaMedium', 'Georgia', serif; 
     color: #777;
-    font-size: 140%;
+    font-size: 90%;
 }
 
-.highlight { 
+.highlight {
     margin: 0;
     padding: 0;
     font-family: 'FuturaHeavy', serif; 
@@ -177,7 +187,9 @@ footer {
 
 img#beatnik {
     float: right;
-    margin: 0 30px 40px 0;
+    margin: 0 15px 20px 0;
+    width: 69px;
+    height: 27px;
 }
 
 /* ==========================================================================
@@ -185,6 +197,34 @@ img#beatnik {
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
+    
+    .bandTitle {
+        font-size: 560%;
+        letter-spacing: 16px;
+        line-height: 0.9;
+        padding: 5px;
+    }
+        
+    .debut {
+        font-size: 140%;
+    }
+
+    img#lostNight {
+        width: 280px;
+        height: 59px;
+        margin-bottom: 10px;
+    }
+
+    img#beatnik {
+        margin: 0 30px 40px 0;
+        width: 115px;
+        height: 45px;
+    }
+
+    .social-media-link {
+        height: 32px;
+        width: 32px;
+    }
 
 }
 
