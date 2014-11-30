@@ -110,6 +110,34 @@ body {
     padding: 5px;
 }
 
+#tour-dates {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    padding: 12px;
+}
+
+#tour-dates a:link {
+    color: #333;
+}
+
+#tour-dates a:visited {
+    color: #333;
+}
+
+#tour-dates a:hover {
+    color: #000;
+}
+
+#tour-dates a:active {
+    color: #333;
+}
+
+
+#tour-dates img {
+    margin-right: 5px;
+}
+
 a {
     text-decoration: none;
 }
