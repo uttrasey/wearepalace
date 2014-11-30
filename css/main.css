@@ -139,7 +139,6 @@ body {
     color: #333;
 }
 
-
 #tour-dates img {
     margin-right: 5px;
 }
@@ -156,6 +155,7 @@ a {
     font-family: 'Avenir', 'Georgia', serif; 
     font-size: 330%;
     display: block;
+    margin-top: 50px;
 }
 
 img#lostNight {
@@ -222,8 +222,8 @@ img#beatnik {
     }
 
     .social-media-link {
-        height: 32px;
-        width: 32px;
+        height: 30px;
+        width: 30px;
     }
 
 }
@@ -232,7 +232,6 @@ img#beatnik {
        (-o-min-device-pixel-ratio: 5/4),
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 120dpi) {
-
 }
 
 /* ==========================================================================
